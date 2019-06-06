@@ -3,10 +3,13 @@
 
 }
 body{
+
 	font-family: sans-serif;
 width: 100%;
 
 }
+
+/*HEADER*/
 .header{
 	display: flex;
 	flex-direction: row;
@@ -31,6 +34,7 @@ width: 100%;
 
 }
 
+/*TITLE FORM*/
 .titleText{
 	display: flex;
 	flex-direction: column;
@@ -49,5 +53,36 @@ width: 100%;
 }
 .titleIcons > p  > a{
     text-decoration: none;
+
 }
 
+/*FORM*/
+
+.formElements{
+	border: 1px solid red;
+	display: flex;
+	flex-direction:column;
+	 justify-content: center;
+	line-height: 30px;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 25px;
+
+}
+.formElements > button{
+ margin-top: 15px;
+}
+input{
+	padding: 0px 6px 0px 8px;
+	width: 90%;
+}
+.formElements > label{
+	font-size: 14px;
+
+}
+.formElements > h1{
+	font-size: 24px;
+}
+.formElements > p{
+	font-size:14px;
+	}
