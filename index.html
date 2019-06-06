@@ -22,11 +22,29 @@
 
     <section class="titleText">
 
-    	<h1>INTUIT</h1>
+    	<div class="intuitLogo"> 
+    	<img src="images/intuit.png" alt="logo" height="35">
+    	</div>
+    	
+    	
+    	
     	<div class="titleIcons">
-    	<p><a href="#">mint</a></p>
-    	<p><a href="#">quickbooks</a></p>
-    	<p><a href="#">turbotax</a></p>
+       
+        <div class='iconWrap'>
+            <img src="images/mint.png" height="20" alt="icon">
+            <div><a href="#">mint</a></div>
+        </div>
+        
+        
+    	<div class='iconWrap'>
+    	    <img src="images/quickbooks.png"   height="20"  alt="icon">
+    	    <div><a href="#">quickbooks</a></div>
+    	</div>
+    	
+    	<div class='iconWrap'>
+    	    <img src="images/turbotax.png"   height="35"  alt="icon">
+    	    <div><a href="#" style="margin-left:-16px;">turbotax</a></div>
+        </div>
     	</div>
     </section>
 
@@ -36,39 +54,46 @@
  
     	
            <div class="formElements">
+    		<div id="formHead">
     		<h1>Create an Intuit account</h1>
     		<p>One account for everything Intuit, including Mint.</p>
-    		<a href="#">Learn More</a>
-
+    		<a href="#" style="color: blue; font-size:15px;">Learn More</a>
+               </div>
     	
     	<label for="email">Email Address</label>
-    	<input type="email" name="email" id="email">
+    	<input type="email" name="email" id="email" required>
 
 <label for="phone">Phone Number</label>
     	<input type="tel" name="phone" id="phone">
 
-    	<label for="password" >Password</label>
-    	<input type="password" name="password" id="password">
+    	<label for="password" >Password (recommended)</label>
+    	<input type="password" name="password" id="password" required>
 
     	<button>Create account</button>
-        </div>
-        
-         <p>By clicking Create Account, you agree to our
-<a href="#">Terms of Service</a> and have read and acknowledge our 
-<a href="#">Privacy Statement.</a></p>
+       
+<div class="formFooter">  
+        <p>By clicking Create Account, you agree to our <a href="#">Terms of Service</a> and have read and acknowledge our <a href="#">Privacy Statement.</a>
+        </p>
+</div> 
 
-<div class="bottom-text">
+
+       
+       
+        </div>
+        <div class="bottom-text">
 	<p>Invisible reCAPTCHA by Google<a href="#"> Privacy Policy </a> and <a href="#">Terms of Use</a>.</p>
 </div>
-
+  
     </form>
     </section>
 
     <section class="footer">
+    <div>
     	<a href="#">Legal</a>
     	<a href="#">Privacy</a>
     	<a href="#">Security</a>
-    	<p>2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+    </div>
+    	<p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
 Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </section>
 </body>
