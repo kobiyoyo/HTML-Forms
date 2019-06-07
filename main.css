@@ -26,7 +26,8 @@ color: white;
 cursor: pointer;
 font-size: 13px;
 font-weight: normal;
-height: 30px;
+height: 36px;
+margin-top: 13px;
 margin-left: 10px;
 width: 81px;
 }
@@ -144,10 +145,10 @@ text-align: center;
 background: #ECEEF1;
 color: grey;
 font-size: 10px;
-height: 30px;
+height: 42px;
 line-height: 17px;
-margin-top: 99px;
-padding-top: 13px;
+margin-top: 25px;
+padding-top: 1px;
 text-align: center;
 }
 /*Footer*/
