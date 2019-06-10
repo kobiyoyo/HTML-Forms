@@ -6,7 +6,9 @@
 <title>Document</title>
 </head>
 <body>
-<section class="header"> 
+	<div class="main">
+<header>
+
 <div class="headerText">
 <p>Already have an Intuit account?</p>
 
@@ -16,11 +18,13 @@
 </p>
 </div>
 <button>Sign In</button>
+</header>
+<div class="formContainer">
+	
 
-</section>
 
 
-<section class="titleText">
+<div class="titleText">
 
 <div class="intuitLogo"> 
 <img src="images/intuit.png" alt="logo" height="35">
@@ -28,7 +32,7 @@
 
 
 
-<div class="titleIcons">
+<nav class="titleIcons">
 
 <div class='iconWrap'>
 <img src="images/mint.png" height="20" alt="icon">
@@ -45,20 +49,20 @@
 <img src="images/turbotax.png"   height="35"  alt="icon">
 <div><a href="#" style="margin-left:-16px;">turbotax</a></div>
 </div>
+</nav>
 </div>
-</section>
 
 
-<section class="form">
-<form action="index.html" method="post">
+<div class="formElements center">
 
-
-<div class="formElements">
 <div class="formHead">
     <div><h2>Create an Intuit account</h2></div>
 <p>One account for everything Intuit, including Mint.</p>
 <a href="#" style="color: blue; font-size:15px;">Learn More</a>
 </div>
+
+<form action="index.html" method="post">
+
 
 <label for="email">Email Address</label>
 <input type="email" name="email" id="email" required>
@@ -71,23 +75,25 @@
 
 <button>Create account</button>
 
+
+
+
+
+
+
+</form>
+
 <div class="formFooter">  
 <p>By clicking Create Account, you agree to our <a href="#">Terms of Service</a> and have read and acknowledge our <a href="#">Privacy Statement.</a>
 </p>
 </div> 
-
-
-
 
 </div>
 <div class="bottom-text">
 <p>Invisible reCAPTCHA by Google<a href="#"> Privacy Policy </a> and <a href="#">Terms of Use</a>.</p>
 </div>
 
-</form>
-</section>
-
-<section class="footer">
+<footer>
 <div>
 <a href="#">Legal</a>
 <a href="#">Privacy</a>
@@ -95,6 +101,8 @@
 </div>
 <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
 Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-</section>
+</footer>
+</div>
+</div>
 </body>
 </html>
