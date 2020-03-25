@@ -1,110 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<link rel="stylesheet" type="text/css" href="main.css">
-<meta charset="UTF-8">
-<title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
 </head>
+
 <body>
-	<header>
+    <header>
 
-<div class="headerText">
-<p>Already have an Intuit account?</p>
+        <div class="headerText">
+            <p>Already have an Intuit account?</p>
 
-<p>
-<a href="#">I forgot my User ID or Password</a>
+            <p>
+                <a href="#">I forgot my User ID or Password</a>
 
-</p>
-</div>
-<button>Sign In</button>
-</header>
-	<main>
+            </p>
+        </div>
+        <button>Sign In</button>
+    </header>
+    <main>
 
-<div class="formContainer">
-	
+        <div class="formContainer">
 
+            <div class="titleText">
 
+                <div class="intuitLogo">
+                    <img src="images/intuit.png" alt="logo" height="35">
+                </div>
 
-<div class="titleText">
+                <nav class="titleIcons">
 
-<div class="intuitLogo"> 
-<img src="images/intuit.png" alt="logo" height="35">
-</div>
+                    <div class='iconWrap'>
+                        <img src="images/mint.png" height="20" alt="icon">
+                        <div><a href="#">mint</a></div>
+                    </div>
 
+                    <div class='iconWrap'>
+                        <img src="images/quickbooks.png" height="20" alt="icon">
+                        <div><a href="#">quickbooks</a></div>
+                    </div>
 
+                    <div class='iconWrap'>
+                        <img src="images/turbotax.png" height="35" alt="icon">
+                        <div><a href="#" style="margin-left:-16px;">turbotax</a></div>
+                    </div>
+                </nav>
+            </div>
 
-<nav class="titleIcons">
+            <div class="formElements center">
 
-<div class='iconWrap'>
-<img src="images/mint.png" height="20" alt="icon">
-<div><a href="#">mint</a></div>
-</div>
+                <div class="formHead">
+                    <div>
+                        <h2>Create an Intuit account</h2></div>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <a href="#" style="color: blue; font-size:15px;">Learn More</a>
+                </div>
 
+                <form action="index.html" method="post">
 
-<div class='iconWrap'>
-<img src="images/quickbooks.png"   height="20"  alt="icon">
-<div><a href="#">quickbooks</a></div>
-</div>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" required>
 
-<div class='iconWrap'>
-<img src="images/turbotax.png"   height="35"  alt="icon">
-<div><a href="#" style="margin-left:-16px;">turbotax</a></div>
-</div>
-</nav>
-</div>
+                    <label for="phone">Phone Number (recommended)</label>
+                    <input type="tel" name="phone" id="phone">
 
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
 
-<div class="formElements center">
+                    <button>Create account</button>
 
-<div class="formHead">
-    <div><h2>Create an Intuit account</h2></div>
-<p>One account for everything Intuit, including Mint.</p>
-<a href="#" style="color: blue; font-size:15px;">Learn More</a>
-</div>
+                </form>
 
-<form action="index.html" method="post">
+                <div class="formFooter">
+                    <p>By clicking Create Account, you agree to our <a href="#">Terms of Service</a> and have read and acknowledge our <a href="#">Privacy Statement.</a>
+                    </p>
+                </div>
 
+            </div>
+            <div class="bottom-text">
+                <p>Invisible reCAPTCHA by Google<a href="#"> Privacy Policy </a> and <a href="#">Terms of Use</a>.</p>
+            </div>
 
-<label for="email">Email Address</label>
-<input type="email" name="email" id="email" required>
-
-<label for="phone">Phone Number (recommended)</label>
-<input type="tel" name="phone" id="phone">
-
-<label for="password" >Password</label>
-<input type="password" name="password" id="password" required>
-
-<button>Create account</button>
-
-
-
-
-
-
-
-</form>
-
-<div class="formFooter">  
-<p>By clicking Create Account, you agree to our <a href="#">Terms of Service</a> and have read and acknowledge our <a href="#">Privacy Statement.</a>
-</p>
-</div> 
-
-</div>
-<div class="bottom-text">
-<p>Invisible reCAPTCHA by Google<a href="#"> Privacy Policy </a> and <a href="#">Terms of Use</a>.</p>
-</div>
-
-
-</div>
-</main>
-<footer>
-<div>
-<a href="#">Legal</a>
-<a href="#">Privacy</a>
-<a href="#">Security</a>
-</div>
-<p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-</footer>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <a href="#">Legal</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+        </div>
+        <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
 </body>
+
 </html>
